@@ -4,11 +4,14 @@ body{
     background: linear-gradient(to right, #1c2f42, #011825); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: white;
     text-align: left;
+    padding: 2% 30% 2% 30%;
+    zoom: 0.9;
 }
+
 
 html,body {
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
 }
 .background {
   position: absolute;
@@ -20,4 +23,8 @@ html,body {
   left: 0;
 
   z-index: -1;
+}
+
+h1{
+    padding-top:2em ;
 }
